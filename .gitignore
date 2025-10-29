@@ -48,3 +48,6 @@ package-lock.json
 
 # Keep this file tracked
 !.gitignore
+
+# Local Netlify folder
+.netlify
