@@ -1,0 +1,50 @@
+# Node
+node_modules/
+dist/
+.env
+.env.*
+
+# Vite / build
+.vite/
+.npm/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Personal Windows profile (shouldn't be in repo root; useful if accidental init happened higher up)
+AppData/
+Cookies/
+Local Settings/
+My Documents/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore sensitive files
+*.pem
+*.key
+
+# Lockfiles
+package-lock.json
+
+# Misc
+*.log
+
+# Ensure we don't accidentally commit large binaries
+*.exe
+*.dll
+
+# Keep this file tracked
+!.gitignore
